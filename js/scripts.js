@@ -8,6 +8,7 @@ $(document).ready(function(){
     var inputtedSize = $("select#size").val();
     var newPizza = new Pizza(toppingsArray,inputtedSize);
     $("#result").text(newPizza.FinalPrice(toppingsArray,inputtedSize));
+    $(".bottom").show();
     event.preventDefault();
   });
 });

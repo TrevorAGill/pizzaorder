@@ -1,8 +1,14 @@
 .upper {
   margin-top: 25px;
-  background: green;
 }
 
 body {
-  background: red;
+  background: url("../img/Pizza.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.bottom {
+  display: none;
 }
